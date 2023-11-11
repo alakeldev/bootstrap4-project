@@ -26,4 +26,30 @@ SecondColor: #ec1c23
 
 
 /*Start Navbar*/
+.navbar-brand > span {
+    font-size: 40px;
+
+}
+
+.navbar-brand span:first-child {
+    color: #ec1c23;
+    font-weight: bold;
+}
+
+.navbar-brand span:last-child {
+    color: #08526d;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 15px;
+    color: #08526d !important;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #ec1c23 !important;
+}
+
 /*End Navbar*/
