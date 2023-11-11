@@ -1,6 +1,15 @@
 /*
 Company Name: Evil Corp
-Programmer: Abdullah Alakel
-
-
+Programmer/coder: Abdullah Alakel
+FirstColor: #08526d
+SecondColor: #ec1c23
 */
+
+/* Start Upper Bar */
+.upper-bar {
+    background-color: #08526d ;
+    color: #fff;
+    padding: 10px;
+}
+
+/* End Upper Bar */
