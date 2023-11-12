@@ -4,6 +4,9 @@ Programmer/coder: Abdullah Alakel
 FirstColor: #08526d
 SecondColor: #ec1c23
 */
+body {
+    height: 2000px;
+}
 
 /* Start Upper Bar */
 .upper-bar {
@@ -120,3 +123,31 @@ SecondColor: #ec1c23
 }
 
 /*End Slider*/
+
+/*Start Features*/
+
+.features {
+    padding: 50px 0;
+
+}
+
+.features i {
+    background-color: #ec1c23;
+    color: #fff;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.features h3 {
+    color: #ec1c23;
+    font-size: 22px;
+}
+
+.features p {
+    color: #989898;
+    margin-bottom: 40px;
+
+}
+
+
+/*End Features*/
