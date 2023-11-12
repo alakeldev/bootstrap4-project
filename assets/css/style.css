@@ -256,3 +256,47 @@ body {
 }
 
 /*End Featured work*/
+
+/*Start Latest Posts*/
+.latest-posts {
+    padding: 0 0 100px;
+
+}
+
+.latest-posts .card {
+    margin-bottom: 30px;
+}
+
+.latest-posts h2 {
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.latest-posts .section-description {
+    line-height: 1.6;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto 40px;
+    color: #6a6a6a;
+}
+
+.latest-posts .card .card-title {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #08526d;
+}
+
+.latest-posts .card .card-text {
+    color: #787878;
+    margin-bottom: 10px;
+}
+
+.latest-posts .card .card-link {
+    color: #ec1c23;
+    font-weight: bold;
+}
+
+
+/*End Latest Posts*/
