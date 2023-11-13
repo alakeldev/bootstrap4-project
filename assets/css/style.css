@@ -4,9 +4,6 @@ Programmer/coder: Abdullah Alakel
 FirstColor: #08526d
 SecondColor: #ec1c23
 */
-body {
-    height: 50000px;
-}
 
 /* Start Upper Bar */
 .upper-bar {
@@ -602,3 +599,27 @@ body {
 }
 
 /*End footer */
+
+/*Start Copyright section*/
+
+.copyright {
+    border-top: 1px solid #c0c0c0;
+    padding: 20px;
+}
+
+.copyright ul {
+    margin: 0;
+}
+
+.copyright ul li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+
+.copyright ul li a {
+    color: #777;
+    
+}
+/*End Copyright section*/
