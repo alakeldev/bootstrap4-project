@@ -9,7 +9,16 @@ SecondColor: #ec1c23
 .upper-bar {
     background-color: #08526d;
     color: #fff;
-    padding: 10px;
+}
+
+.upper-bar .info {
+    margin: 15px 0;
+}
+
+@media (max-width: 576px) {
+    .upper-bar .info:first-child {
+        margin-bottom: 0;
+    }
 }
 
 .upper-bar span {
@@ -21,6 +30,13 @@ SecondColor: #ec1c23
     border: 1px solid #ec1c23;
     padding: 2px 10px;
     margin-left: 20px;
+}
+
+@media (max-width: 576px) {
+    .upper-bar .get-quote {
+        border: none;
+        margin-left: 5px;
+    }
 }
 
 /* End Upper Bar */
@@ -620,6 +636,7 @@ SecondColor: #ec1c23
 
 .copyright ul li a {
     color: #777;
-    
+
 }
+
 /*End Copyright section*/
