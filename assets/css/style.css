@@ -5,7 +5,7 @@ FirstColor: #08526d
 SecondColor: #ec1c23
 */
 body {
-    height: 2000px;
+    height: 50000px;
 }
 
 /* Start Upper Bar */
@@ -444,3 +444,48 @@ body {
 }
 
 /* ENd pricing table */
+
+/* Start why choose us*/
+
+.choose-us img {
+    max-width: 100%;
+}
+
+.choose-us {
+
+}
+
+.choose-us .col-6 {
+    padding: 0;
+}
+
+.choose-us .col-6:last-child {
+    background-color: #08526d;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.choose-us .h1 {
+    margin: 40px;
+}
+
+.choose-us p {
+    margin: 40px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.choose-us .read-more {
+    display: inline-block;
+    padding: 6px 20px;
+    margin: 0 0 0 40px;
+    background-color: #ed1d24;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* End why choose us*/
