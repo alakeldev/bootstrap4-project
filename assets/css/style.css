@@ -80,8 +80,12 @@ SecondColor: #ec1c23
     display: flex;
     align-items: center;
     justify-content: left;
+}
 
-
+@media (max-width: 768px) {
+    .slider .carousel-inner {
+        justify-content: center;
+    }
 }
 
 .slider .carousel-inner h1 {
@@ -92,6 +96,23 @@ SecondColor: #ec1c23
     max-width: 900px;
     line-height: 1.5;
     left: 100px;
+}
+
+@media (max-width: 768px) {
+    .slider .carousel-inner h1 {
+        font-size: 40px;
+        max-width: 100%;
+        left: auto;
+        text-align: center;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .slider .carousel-inner h1 {
+        font-size: 50px;
+
+    }
 }
 
 .slider .carousel-inner h1 span {
@@ -179,6 +200,13 @@ SecondColor: #ec1c23
     margin-bottom: 25px;
 }
 
+@media (max-width: 992px) {
+    .overview h2 {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+}
+
 
 .overview p {
     line-height: 2;
@@ -186,6 +214,13 @@ SecondColor: #ec1c23
     width: 80%;
     margin: 0 auto 20px;
     color: #6a6a6a;
+}
+
+@media (max-width: 992px) {
+    .overview p {
+        width: 100%;
+        font-size: 12px;
+    }
 }
 
 .overview h4 {
@@ -398,6 +433,14 @@ SecondColor: #ec1c23
     color: #6a6a6a;
 }
 
+
+@media (max-width: 992px) {
+    .pricing-table .section-description { 
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
 .pricing-table .card .card-title {
     font-size: 25px;
     line-height: 1.5;
@@ -466,11 +509,11 @@ SecondColor: #ec1c23
 
 .choose-us {}
 
-.choose-us .col-6 {
+.choose-us .col-lg-6 {
     padding: 0;
 }
 
-.choose-us .col-6:last-child {
+.choose-us .col-lg-6:last-child {
     background-color: #08526d;
     color: #fff;
     padding-top: 30px;
