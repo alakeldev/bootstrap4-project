@@ -435,7 +435,7 @@ SecondColor: #ec1c23
 
 
 @media (max-width: 992px) {
-    .pricing-table .section-description { 
+    .pricing-table .section-description {
         width: 100%;
         margin-bottom: 40px;
     }
@@ -486,6 +486,12 @@ SecondColor: #ec1c23
 .pricing-table .card.corporate {
     position: relative;
     top: -15px;
+}
+
+@media (max-width: 992px) {
+    .pricing-table .card.corporate {
+        top: 0;
+    }
 }
 
 .pricing-table .card.corporate .card-text {
@@ -582,6 +588,12 @@ SecondColor: #ec1c23
     margin: 0;
 }
 
+@media (max-width: 768px) {
+    .contact-us p {
+        margin-bottom: 30px;
+    }
+}
+
 .contact-us a {
     color: #fff;
     border: 1px solid #fff;
@@ -655,6 +667,20 @@ SecondColor: #ec1c23
 
 .footer .contact ul li {
     margin-bottom: 25px;
+}
+
+@media (max-width: 992px) {
+
+    .footer .helpful-links h2,
+    .footer .contact h2 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    footer .contact ul li {
+        margin-bottom: 5px;
+    }
+
 }
 
 /*End footer */
