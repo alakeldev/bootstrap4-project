@@ -451,9 +451,7 @@ body {
     max-width: 100%;
 }
 
-.choose-us {
-
-}
+.choose-us {}
 
 .choose-us .col-6 {
     padding: 0;
@@ -511,6 +509,7 @@ body {
 .stats .state-box {
     margin-bottom: 40px;
 }
+
 /* End Statistics*/
 
 /*Start Contact Us*/
@@ -539,13 +538,34 @@ body {
 
 /*Start footer */
 
-.footer{
+.footer {
     padding: 100px 0;
 
 }
 
 .footer .site-info h2 {
     font-size: 50px;
+    margin-bottom: 35px;
+}
+
+.footer .site-info p {
+    line-height: 1.8;
+    color: #727272;
+
+
+}
+
+.footer .site-info a {
+    color: #08526d;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer .site-info a::before {
+    font-family: "FontAwesome";
+    content: "\f138";
+    display: inline-block;
+    margin-right: 5px;
 }
 
 .footer .site-info h2 span:first-child {
@@ -556,4 +576,29 @@ body {
 .footer .site-info h2 span:last-child {
     color: #08526d;
 }
+
+
+.footer .helpful-links h2,
+.footer .contact h2 {
+    font-size: 20px;
+    color: #08526d;
+    margin-bottom: 72px;
+    margin-top: 12px;
+}
+
+.footer .helpful-links ul li::before {
+    font-family: "FontAwesome";
+    content: "\f054";
+    /*from font awesome fa-cheverwon- you must bring this code from font awesome inspect then take the content from the inspect*/
+    margin-right: 5px;
+    color: #08526d;
+    font-size: 12px;
+    position: relative;
+    top: -1px;
+}
+
+.footer .contact ul li {
+    margin-bottom: 25px;
+}
+
 /*End footer */
