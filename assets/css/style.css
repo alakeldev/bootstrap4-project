@@ -341,7 +341,7 @@ body {
     margin-bottom: 5px;
 }
 
-.Testimonials .carousel-caption h5 + span {
+.Testimonials .carousel-caption h5+span {
     font-size: 18px;
     display: inline-block;
     margin-bottom: 30px;
@@ -351,4 +351,96 @@ body {
     height: 8px;
     cursor: pointer;
 }
+
 /*End Testimonials*/
+
+/* Start pricing table */
+.pricing-table {
+    padding: 100px 0 100px;
+    background-color: #f7f7f7;
+
+}
+
+.pricing-table .card {
+    margin-bottom: 30px;
+}
+
+.pricing-table .card-body {
+    padding: 0;
+}
+
+
+.pricing-table h2 {
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.pricing-table .section-description {
+    line-height: 1.6;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto 80px;
+    color: #6a6a6a;
+}
+
+.pricing-table .card .card-title {
+    font-size: 25px;
+    line-height: 1.5;
+    color: #08526d;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.pricing-table .card .card-text {
+    color: #08526d;
+    margin: 30px 0 10px;
+    background-color: #f7f7f7;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pricing-table .card .card-text span {
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+
+.pricing-table .list-group-item {
+    border: none;
+
+}
+
+
+.pricing-table .card .card-link {
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    background-color: #ec1c23;
+    text-transform: uppercase;
+
+}
+
+.pricing-table .card.corporate {
+    position: relative;
+    top: -15px;
+}
+
+.pricing-table .card.corporate .card-text {
+    background-color: #ec1c23;
+    color: #fff;
+
+}
+
+.pricing-table .card.corporate .card-link {
+    background-color: #08526d;
+
+}
+
+/* ENd pricing table */
