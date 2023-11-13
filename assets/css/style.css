@@ -536,3 +536,24 @@ body {
 }
 
 /*End Contact Us*/
+
+/*Start footer */
+
+.footer{
+    padding: 100px 0;
+
+}
+
+.footer .site-info h2 {
+    font-size: 50px;
+}
+
+.footer .site-info h2 span:first-child {
+    color: #ec1c23;
+    font-weight: bold;
+}
+
+.footer .site-info h2 span:last-child {
+    color: #08526d;
+}
+/*End footer */
