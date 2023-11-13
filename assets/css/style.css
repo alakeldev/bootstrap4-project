@@ -489,3 +489,26 @@ body {
 
 
 /* End why choose us*/
+
+/* Start Statistics*/
+.stats {
+    padding: 100px 0;
+    color: #08526d;
+}
+
+.stats .number {
+    display: block;
+    font: 50px;
+    font-weight: bold;
+}
+
+.stats p {
+    color: #ed1d24;
+    font-size: 20px;
+
+}
+
+.stats .state-box {
+    margin-bottom: 40px;
+}
+/* End Statistics*/
